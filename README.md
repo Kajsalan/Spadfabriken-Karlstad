@@ -7,4 +7,4 @@ Projektet har genomförts av Johanna Häger, Malin Ålund Karlsson och Kajsa Lan
 _vilka filer som finns med_
 
 ## Credits
-Hemsidan och projektets repository har skapats med hjälp av Wout Dillens [mallar](https://github.com/SSLIS/DCHM-template)
+Hemsidan och projektets repository har skapats med hjälp av Wout Dillens [mallar](https://github.com/SSLIS/DCHM-template).
