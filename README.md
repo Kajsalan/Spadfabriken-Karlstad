@@ -1,4 +1,10 @@
-Info om projektet
+## Digitalisering för bevarande och tillgänglighet
+Det här är ett digitiseringsprojekt för kursen “Digitalisering för bevarande och tillgänglighet” vid Borås högskola, som är en del av Masterprogrammet i Biblioteks- och informationsvetenskap. Materialet som ligger till grund för projektet är en produktkatalog från Spadfabriken Karlstad, publicerad 1943. Katalogen tillhandahölls av Karlstads Hembygdsförening och upphovsrätten ägs av Karlstad Redskap AB av vilka vi har fått tillåtelse att publicera slutprodukten av digitaliserinsgarbetet.
+Materialet har skannats, transkriberats, TEI-kodats och publicerats med hjälp av GitHub Pages och man kan besöka hemsidan [här](https://github.com/Kajsalan/Spadfabriken-Karlstad).
+Projektet har genomförts av Johanna Häger, Malin Ålund Karlsson och Kajsa Landin.
+
+## Projektöversikt
+_vilka filer som finns med_
 
 ## Credits
-This repository was originally developed by [Wout Dillen](https://github.com/WoutDLN) as a teaching tool in the Digitising Cultural Heritage Materials course at the [University of Borås](https://www.hb.se/).
+Hemsidan och projektets repository har skapats med hjälp av Wout Dillens [mallar](https://github.com/SSLIS/DCHM-template).
