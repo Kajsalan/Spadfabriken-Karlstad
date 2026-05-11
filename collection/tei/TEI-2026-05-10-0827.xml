@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- title/author/editor information-->
+            <title>Transkribering av Spadfabriken Karlstads katalog (1943)</title>
+            <author>Spadfabriken Karlstad</author>
+            <respStmt>
+               <name>Karlstadgruppen</name>
+               <persName>Malin Ålund</persName>
+               <persName>Johanna Häger</persName>
+               <persName>Kajsa Landin</persName>
+               <resp>Transkriberad av</resp>
+            </respStmt>
+            <principal>Karlstadgruppen</principal>
+         </titleStmt>
+
+         <publicationStmt>
+            <!-- Publication Information-->
+            <publisher>Högskolan i Borås</publisher>
+            <pubPlace>
+               <address>
+                  <orgName>Högskolan i Borås</orgName>
+                  <street>13 Allégatan 1</street>
+                  <settlement>Borås</settlement>
+                  <postCode>503 32</postCode>
+                  <country>Sverige</country>
+               </address>
+            </pubPlace>
+            <authority>Karlstadsgruppen</authority>
+            <date when="2026-04-13">6 April 2026</date>
+            <availability>
+               <p>© Copyright is held by Karlstad Redskap AB. The material has been digitized and
+                  published with permission from the copyright holder.<lb/> © Upphovsrätten innehas
+                  av Karlstad Redskap AB. Materialet har digitaliserats och publicerats med
+                  tillstånd från upphovsrättsinnehavaren. </p>
+            </availability>
+
+         </publicationStmt>
+
+         <sourceDesc>
+            <!-- Metadata about the source-->
+            <bibl>
+               <title>Katalog å handredskap</title>
+               <date>1943</date>
+               <pubPlace>Karlstad</pubPlace>
+               <publisher>Spadfabriken Karlstad</publisher>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Katalog å handredskap</msName>
+                  <altIdentifier>
+                     <idno>65023</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <p>Materialet består av en reklamtrycksak från Spadfabriken Karlstad, daterad
+                     1943. Den fysiska katalogen ägs av <ref
+                        target="https://www.hembygd.se/karlstads-hembygdsf-rening">Karlstads
+                        hembyggdsförening.</ref>.</p>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="catalogue">
+                     <supportDesc material="paper">
+                        <support>Papper.</support>
+                        <extent>10 blad. <dimensions scope="all" type="leaf" unit="cm">
+                              <height>22,65 cm hög.</height>
+                              <width>15 cm bred.</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+      <profileDesc>
+         <!-- Additional information, vocabulary ect-->
+         <textClass>
+            <keywords scheme="https://agrovoc.fao.org/">
+               <term ref="http://aims.fao.org/aos/agrovoc/c_6441">Rake</term>
+               <term ref="http://aims.fao.org/aos/agrovoc/c_7a76e374">Spades</term>
+               <term ref="http://aims.fao.org/aos/agrovoc/c_25733">Hoes</term>
+            </keywords>
+            <keywords scheme="https://id.kb.se/">
+               <term ref="https://id.kb.se/term/sao/Kataloger">Kataloger</term>
+               <term ref="https://id.kb.se/term/sao/Efem%C3%A4rt%20tryck">Efemärt tryck</term>
+               <term ref="https://id.kb.se/term/sao/Reklam">Reklam</term>
+               <term ref="https://id.kb.se/term/sao/Lantbruksredskap">Lantbruksredskap</term>
+               <term ref="https://id.kb.se/term/sao/Tr%C3%A4dg%C3%A5rdsredskap"
+                  >Trädgårdsredskap</term>
+               <term ref="https://id.kb.se/term/sao/1940-talet">1940-talet</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+
+      <encodingDesc>
+         <!-- Encoding practices-->
+         <projectDesc>
+            <p>Detta material är skapat för en uppgift i kursen "Digitalisering för bevarande och
+               tillgänglighet", där kulturarvmaterial digitaliseras på uppdrag av en
+               kulturarvsinstitution, i detta fall Karlstads hembygdsförening. Kursen ingår i
+               masterutbildningen i Biblioteks- och informationsvetenskap vid Högskolan i Borås.</p>
+         </projectDesc>
+         <editorialDecl>
+            <hyphenation>
+               <p>Bindestreck har transkriberats som de är.</p>
+            </hyphenation>
+            <segmentation>
+               <p><gi>div</gi> och <gi>pb</gi>har använts för att markera en ny sida.</p>
+            </segmentation>
+         </editorialDecl>
+      </encodingDesc>
+      
+      <xenoData>Rådata för en av bilderna räcker</xenoData>
+
+   </teiHeader>
+
+   <!-- Länkar till alla bilders plats i GitHub och beskrivning av bilder -->
+
+   <facsimile>
+      <surface xml:id="p1">
+         <figure>
+            <label>Bild 1</label>
+            <figDesc>Omslag. Bildens övre del har en röd bakgrund som täcker drygt två tredjedelar
+               av bildens yta. På denna del visas en illustration av en kortklippt, något leende man
+               som håller en spade i ett tvåhandsgrepp. Mannen är klädd i vit skjorta, mörka byxor
+               och bälte med metallspänne samt keps. Keps, byxor och spadens blad har en mörkgrön
+               färg, ansikte och händer har en ljust rosa till grå färg, spadens skaft har en beige
+               färg med en logotyp i brunsvart färg. Bildens nedre del täcker knappt en tredjedel av
+               ytan, och är i samma mörkgröna färg som delar av illustrationen av mannen. En vit
+               text i ett sans seriff-typnitt visar namnet på tillverkaren av katalogen och en
+               reklamslogan m.m.. En rund logotyp med röda detaljer mot ljus bakgrund
+               (föreställandes en grävande figur m.m.) är placerad till vänster i samband med den
+               vita texten. </figDesc>
+            <graphic xml:id="p1_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-01.jpg"/>
+            <graphic xml:id="p1_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-01.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p2">
+         <figure>
+            <label>Bild 2</label>
+            <figDesc>Bilden visar en blank sida</figDesc>
+            <graphic xml:id="p2_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-02.jpg"/>
+            <graphic xml:id="p2_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-02.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p3">
+         <figure>
+            <label>Bild 3</label>
+            <figDesc>Bild 3 är titelsida med en logotyp och adressinformation</figDesc>
+            <graphic xml:id="p3_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-03.jpg"/>
+            <graphic xml:id="p3_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-03.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p4">
+         <figure>
+            <label>Bild 4</label>
+            <figDesc>Bild 4 har en text och ett garantiklistermärke</figDesc>
+            <graphic xml:id="p4_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-04.jpg"/>
+            <graphic xml:id="p4_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-04.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p5">
+         <figure>
+            <label>Bild 5</label>
+            <figDesc>Denna sida innehåller illustrationer på 7 stycken verktyg av typen
+               gödselgrepar. På den övre raden visas: <list>
+                  <item>140: en 4-kloig gödselgrep med handtag</item>
+                  <item>150: en 5-kloig gödselgrep med handtag</item>
+               </list>På den undre raden visas: <list>
+                  <item>119: 120, 121 lång hylsa: en 2-kloig högaffel</item>
+                  <item>141: en 4-kloig gödselgrep med handtag</item>
+                  <item>120 W: en 2-kloig högaffel</item>
+                  <item>151: en 5-kloig gödselgrep med handtag</item>
+                  <item>129, 130, 131 lång hylsa: en 3-kloig högaffel</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p5_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-05.jpg"/>
+            <graphic xml:id="p5_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-05.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p6">
+         <figure>
+            <label>Bild 6</label>
+            <figDesc>Denna sida innehåller illustrationer på 7 stycken verktyg av typen
+               gödselgrepar. På den övre raden visas: <list>
+                  <item>152: en 4-kloig grep med handtag</item>
+                  <item>152 B: en 4-kloig grep med handtag, bredare än 152</item>
+                  <item>158: en 4-kloig grep med handtag, bredare än 152</item>
+               </list> På den undre raden visas: <list>
+                  <item>160: en 6-kloig gödselgrep med handtag </item>
+                  <item>161: en 6-kloig gödselgrep med handtag </item>
+                  <item>162 B: en 6-kloig gödselgrep med handtag</item>
+                  <item> 159: en 5-kloig gödselgrep med handtag </item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p6_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-06.jpg"/>
+            <graphic xml:id="p6_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-06.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p7">
+         <figure>
+            <label>Bild 7</label>
+            <figDesc>Denna sida innehåller illustrationer på 5 stycken verktyg av typen gräv- och
+               trädgårdsgrepar, betgrepar samt sulfitgrepar. På den övre raden visas: <list>
+                  <item>144: en 4-kloig gräv- och trädgårdsgrep med handtag</item>
+                  <item>144 B: en 4-kloig gräv- och trädgårdsgrep med handtag</item>
+               </list> På den undre raden visas: <list>
+                  <item>266, 266W: en 6-kloig betgrep med handtag </item>
+                  <item>160 H: en 6-kloig sulfitgrep med handtag </item>
+                  <item>267, 267 W: en 6-kloig betgrep med handtag</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p7_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-07.jpg"/>
+            <graphic xml:id="p7_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-07.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p8">
+         <figure>
+            <label>Bild 8</label>
+            <figDesc>Denna sida innehåller illustrationer på 5 stycken verktyg av typen koks- och
+               makadamgrepar samt potatisgrepar. På den övre raden visas: <list>
+                  <item>208 Ex: en 8-kloig koks- och makadamgrep med handtag</item>
+                  <item>210: en 10-kloig koks- och makadamgrep med handtag</item>
+                  <item>210 M: en 10-kloig koks- och makadamgrep med handtag </item>
+               </list> På den undre raden visas: <list>
+                  <item>212: en 12-kloig koks- och makadamgrep med handtag </item>
+                  <item>310: en 10-kloig potatisgrep med handtag</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p8_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-08.jpg"/>
+            <graphic xml:id="p8_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-08.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p9">
+         <figure>
+            <label>Bild 9</label>
+            <figDesc>Denna sida innehåller illustrationer på 6 stycken verktyg av typen gödselrakor,
+               potatishackor, små potatishackor samt lövräfsor. På den övre raden visas: <list>
+                  <item>146: en 4-kloig gödselraka med skaft, utan handtag</item>
+                  <item>145 B: en 4-kloig potatishacka med skaft, utan handtag</item>
+                  <item>156: en 5-kloig gödselraka med skaft, utan handtag </item>
+               </list> På den undre raden visas: <list>
+                  <item>1: en lövräfsa med 20 pinnar</item>
+                  <item>133: en 3-kloig potatishacka</item>
+                  <item>2: en lövräfsa med 24 pinnar</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p9_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-09.jpg"/>
+            <graphic xml:id="p9_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-09.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p10">
+         <figure>
+            <label>Bild 10</label>
+            <figDesc>Denna sida innehåller illustrationer på 9 stycken verktyg av typen oskaftade
+               högafflar, gödselgrepar, gödselrakor, potatishackor samt betupptagningsrepar. På den
+               övre raden visas: <list>
+                  <item>221: en 2-kloig högaffel (utan skaft)</item>
+                  <item>145 C: en 4-kloig potatishacka (utan skaft)</item>
+                  <item>156: en 5-kloig gödselraka (utan skaft)</item>
+                  <item>231: en 2-kloig högaffel (utan skaft)</item>
+               </list> På den mellersta raden visas: <list>
+                  <item>226: en 2-kloig betupptagningsgrep (utan skaft)</item>
+                  <item>249: en 4-kloig gödselraka (utan skaft)</item>
+                  <item>259: en 5-kloig gödselraka (utan skaft)</item>
+               </list> På den undre raden visas: <list>
+                  <item>241: en 4-kloig gödselgrep (utan skaft)</item>
+                  <item>251: en 5-kloig gödselgrep (utan skaft)</item>
+                  <item>261: en 6-kloig gödselgrep (utan skaft)</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p10_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-10.jpg"/>
+            <graphic xml:id="p10_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-10.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p11">
+         <figure>
+            <label>Bild 11</label>
+            <figDesc>Denna sida innehåller illustrationer på 11 stycken verktyg av typen oskaftade
+               högafflar, gräv- och trädgårdsgrepar, gödselgrepar, potatishackor samt gödselrakor.
+               På den övre raden visas: <list>
+                  <item>120 A: en 2-kloig högaffel (utan skaft)</item>
+                  <item>130 A: en 3-kloig högaffel (utan skaft)</item>
+                  <item>120 WA: en 2-kloig högaffel (utan skaft)</item>
+                  <item>144 A: en 4-kloig grävgrep (utan skaft)</item>
+               </list> På den mellersta raden visas: <list>
+                  <item>140 A: en 4-kloig gödselgrep (utan skaft)</item>
+                  <item>150 A: en 5-kloig gödselgrep (utan skaft)</item>
+                  <item>160 A: en 6-kloig gödselgrep (utan skaft)</item>
+               </list> På den undre raden visas: <list>
+                  <item>133 A: en 3-kloig potatishacka (utan skaft)</item>
+                  <item>145 Ba: en 4-kloig potatishacka (utan skaft)</item>
+                  <item>146 A: en 4-kloig gödselraka (utan skaft)</item>
+                  <item>156 A: en 5-kloig gödselraka (utan skaft)</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p11_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-11.jpg"/>
+            <graphic xml:id="p11_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-11.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p12">
+         <figure>
+            <label>Bild 12</label>
+            <figDesc>Denna sida innehåller illustrationer på 7 stycken verktyg av typen gräv- och
+               dikesspadar, slungspadar samt trädgårdsspadar. På den övre raden visas: <list>
+                  <item>11, 12, 13 At långt beslag: en gräv- och dikesspade med handtag</item>
+                  <item>11, 12, 13 At med patentbeslag: en gräv- och dikesspade med handtag</item>
+                  <item>11, 12, 13 At med långsvetsat patentbeslag: en gräv- och dikesspade med
+                     handtag</item>
+               </list>På den undre raden visas: <list>
+                  <item>1, 2 PM med patentbeslag: en slungspade med handtag</item>
+                  <item>1, 2 PM med långsvetsat patentbeslag: en slungspade med handtag</item>
+                  <item>351 Bj: en trädgårdsspade med handtag</item>
+                  <item>351 Bj helslipad: en trädgårdsspade med handtag</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p12_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-12.jpg"/>
+            <graphic xml:id="p12_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-12.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p13">
+         <figure>
+            <label>Bild 13</label>
+            <figDesc>Denna sida innehåller illustrationer på 7 stycken verktyg av typen spetsiga
+               skyfflar, koloni- och trädgårdsspadar samt stoppspadar. På den övre raden visas: <list>
+                  <item>33-37 At med långt beslag: en spetsig skyffel med handtag</item>
+                  <item>33-37 med patentbeslag: en spetsig skyffel med handtag</item>
+                  <item>33-37 At med långsvetsat patentbeslag: en spetsig skyffel med handtag
+                  </item>
+               </list> På den undre raden visas: <list>
+                  <item>365 At tvär: en tvär koloni- och trädgårdsspade med handtag</item>
+                  <item>365 At spetsig: en spetsig koloni- och trädgårdsspade med handtag</item>
+                  <item>39 L med kryckhandtag: en spetsig skyffel med handtag</item>
+                  <item>301 Bt långt beslag: en stoppspade med handdag</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p13_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-13.jpg"/>
+            <graphic xml:id="p13_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-13.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p14">
+         <figure>
+            <label>Bild 14</label>
+            <figDesc>Denna sida innehåller illustrationer på 6 stycken verktyg av typen tvära
+               skyfflar, gjuteriskyfflar, spannmålsskyfflar och kollämpareskyfflar. På den övre
+               raden visas: <list>
+                  <item>42-46 At: en tvär skyffel och gjuteriskyffel med handtag</item>
+                  <item>42-46 Ct: en tvär skyffel och gjuteriskyffel med handtag</item>
+                  <item>51-54 At: en spannmålsskyffel med handtag</item>
+               </list> På den undre raden visas: <list>
+                  <item>51-52 Ct: en spannmålsskyffel med handtag </item>
+                  <item>182 Ht: en kollämpareskyffel med handtag</item>
+                  <item>185 K kryckhandtag: en kollämpareskyffel med handtag</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p14_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-14.jpg"/>
+            <graphic xml:id="p14_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-14.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p15">
+         <figure>
+            <label>Bild 15</label>
+            <figDesc>Denna sida innehåller illustrationer på 6 stycken verktyg av typen skånska
+               skyfflar och cementskyfflar, snöskyfflar samt täckdikesspadar. På den övre raden
+               visas: <list>
+                  <item>61-62 kryckhandtag: en skånsk skyffel och cementskyffel med handtag</item>
+                  <item>ABt: en snöskyffel med handtag</item>
+                  <item>81-82 At med patentbeslag: en täckdikespade med handtag </item>
+               </list> På den undre raden visas: <list>
+                  <item>60: en skånsk skyffel och cementskyffel med handtag </item>
+                  <item>61-62: en skånsk skyffel och cementskyffel med handtag</item>
+                  <item> 63: en skånsk skyffel och cementskyffel med handtag</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p15_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-15.jpg"/>
+            <graphic xml:id="p15_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-15.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p16">
+         <figure>
+            <label>Bild 16</label>
+            <figDesc>Denna sida innehåller illustrationer på 7 stycken verktyg av typen
+               hallpannskyfflar, barn- och planteringsspadar samt kantskärare. På den övre raden
+               visas: <list>
+                  <item>102 Ct: en hallpannskyffel med handtag</item>
+                  <item>101 C: en hallpannskyffel</item>
+               </list> På den undre raden visas (från vänster nedre hörn till höger ungefär i mitten
+               på bilden): <list>
+                  <item>1 S: en barn- och planeringsspade</item>
+                  <item>2 S: en barn- och planeringsspade</item>
+                  <item>1 T: en barn- och planeringsspade</item>
+                  <item>2 T: en barn- och planeringsspade</item>
+                  <item>3 K: en kantskärare</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p16_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-16.jpg"/>
+            <graphic xml:id="p16_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-16.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p17">
+         <figure>
+            <label>Bild 17</label>
+            <figDesc>Denna sida innehåller illustrationer på 4 stycken verktyg av typen Karlstads
+               snöskyfflar och torvspadar. På den övre raden visas: <list>
+                  <item>1-2: en snöskyffel med handtag</item>
+               </list> På den undre raden visas (från vänster nedre hörn till höger ungefär i mitten
+               på bilden: <list>
+                  <item>20 At: en torvspade med handtag</item>
+                  <item>22 At: en torvspade med handtag</item>
+                  <item>7 At: en torvspade med handtag</item>
+               </list>
+            </figDesc>
+            <graphic xml:id="p17_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-17.jpg"/>
+            <graphic xml:id="p17_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-17.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p18">
+         <figure>
+            <label>Bild 18</label>
+            <figDesc>Innehåller information om Karlstads svetsade beslag i två olika utföranden för
+               gräv-, dikes- och schaktspadar. De två utförandena visas med hjälp av en illustration
+               och ett foto.</figDesc>
+            <graphic xml:id="p18_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-18.jpg"/>
+            <graphic xml:id="p18_thumb" url="assetsimg/Spadfabriken-Karlstad-katalog-1943-18.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p19">
+         <figure>
+            <label>Bild 19</label>
+            <figDesc>Bilden visar en blank sida</figDesc>
+            <graphic xml:id="p19_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-19.jpg"/>
+            <graphic xml:id="p19_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-19.jpg"/>
+         </figure>
+      </surface>
+
+      <surface xml:id="p20">
+         <figure>
+            <label>Bild 20</label>
+            <figDesc>Vit sida som visar texten: Karlstad 1943, Nermans trycksaker, 65023</figDesc>
+            <graphic xml:id="p20_image" url="assets/img/Spadfabriken-Karlstad-katalog-1943-20.jpg"/>
+            <graphic xml:id="p20_thumb" url="assets/img/Spadfabriken-Karlstad-katalog-1943-20.jpg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+
+   <!-- Transkriberingen av texten -->
+
+   <!--Kolla igenom att alla ab och head blev rätt.-->
+
+
+   <text xml:lang="swe">
+
+      <front>
+         <pb n="1"/>
+         <div type="page" facs="#p1">
+            <head>
+               <hi rend="bold caps center">KARLSTAD SPADAR</hi>
+            </head>
+            <p>
+               <hi rend="center">Den rätta spaden för <lb/>den mycket fordrande <lb/>fackmannen</hi>
+            </p>
+            <ab>
+               <hi rend="bold caps center">SPADFABRIKEN • KARLSTAD</hi>
+            </ab>
+            <ab>
+               <hi rend="italic center">Bröderna Wästlund &amp; Co.</hi>
+            </ab>
+         </div>
+      </front>
+
+      <body>
+
+         <pb n="2"/>
+         <div type="page" facs="#p2">
+            <!-- Denna sida är tom-->
+         </div>
+
+         <pb n="3"/>
+         <div type="page" facs="#p3">
+            <head>
+               <hi rend="caps center">KATALOG</hi>
+            </head>
+            <head><hi rend="center">å</hi></head>
+            <head>
+               <hi rend="caps center">HANDREDSKAP</hi>
+            </head>
+            <p>
+               <hi rend="caps center">SPADFABRIKEN • KARLSTAD</hi>
+            </p>
+            <p>
+               <hi rend="italic center">Bröderna Wästlund &amp; Co.</hi>
+            </p>
+            <p>
+               <hi rend="center">Telegramadress: <hi rend="caps">SPADFABRIKEN</hi><lb/>Telefon 15435
+                  Växel</hi>
+            </p>
+         </div>
+
+         <pb n="4"/>
+         <div type="page" facs="#p4">
+            <p>
+               <hi rend="center italic">Alla redskap från oss levereras under full <lb/>garanti och
+                  är å varje verktyg följande <lb/>etikett anbringad:</hi>
+            </p>
+
+            <p>
+               <hi rend="center">Detta<lb/>redskap</hi><lb/><hi rend="center italic bold"
+                  >Garanteras</hi><lb/><hi rend="center">och ersättes gratis i händelse <lb/>av
+                  fabrikationsfel.</hi><lb/><hi rend="bold caps center"
+                  >SPADFABRIKEN<lb/>KARLSTAD</hi></p>
+         </div>
+
+         <pb n="5"/>
+         <div type="page" facs="#p5" n="Högafflar, Halmgafflar och Gödselgrepar">
+            <ab>140</ab>
+            <ab>150</ab>
+            <ab>119, 120, 121 <lb/>med lång hylsa</ab>
+            <ab>120 W</ab>
+            <ab>129, 130, 131 <lb/>med lång hylsa</ab>
+            <ab>141</ab>
+            <ab>151</ab>
+            <ab><hi rend="center">Högafflar, Halmgafflar och Gödselgrepar</hi></ab>
+            <ab>
+               <hi rend="left">Pris och beskrivning enligt särskild prislista</hi>
+            </ab>
+            <trailer><hi rend="right">3</hi></trailer>
+         </div>
+
+         <pb n="6"/>
+         <div type="page" facs="#p6" n="Gödselgrepar">
+
+            <ab>152</ab>
+            <ab>152 B</ab>
+            <ab>158</ab>
+            <ab>160</ab>
+            <ab>161</ab>
+            <ab>162 B</ab>
+            <ab>159</ab>
+            <p>
+               <hi rend="center">Gödselgrepar</hi>
+            </p>
+            <p>
+               <hi rend="right">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="left">4</hi></trailer>
+         </div>
+
+         <pb n="7"/>
+         <div type="page" facs="#p7" n="Gräv- och Trädgårdsgrepar, Betgrepar samt Sulfitgrepar">
+            <ab>144</ab>
+            <ab>144 B</ab>
+            <ab>266, 266 w</ab>
+            <ab>160 H</ab>
+            <ab>267, 267 W</ab>
+            <p>
+               <hi rend="center">Gräv- och Trädgårdsgrepar, Betgrepar samt Sulfitgrepar</hi>
+            </p>
+            <p>
+               <hi rend="left">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="right">5</hi></trailer>
+         </div>
+
+         <pb n="8"/>
+         <div type="page" facs="#p8" n="Koks- och Makadamgrepar samt Potatisgrepar">
+            <ab>208 Ex</ab>
+            <ab>210</ab>
+            <ab>210 M</ab>
+            <ab>212 <lb/>trähandtag</ab>
+            <ab>310</ab>
+            <p>
+               <hi rend="center">Koks- och Makadamgrepar samt Potatisgrepar</hi>
+            </p>
+            <p>
+               <hi rend="right">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="left">6</hi></trailer>
+         </div>
+
+         <pb n="9"/>
+         <div type="page" facs="#p9"
+            n="Gödselrakor, Potatishackor, Små potatishackor samt Lövräfsan »PERFEKT»">
+            <ab>146</ab>
+            <ab>145 B</ab>
+            <ab>156</ab>
+            <ab>1</ab>
+            <ab>133</ab>
+            <ab>2</ab>
+            <p>
+               <hi rend="center">Gödselrakor, Potatishackor, Små potatishackor samt <lb/>Lövräfsan »
+                     <hi rend="caps">PERFEKT</hi>»</hi>
+            </p>
+            <p>
+               <hi rend="left">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="right">7</hi></trailer>
+         </div>
+
+         <pb n="10"/>
+         <div type="page" facs="#p10"
+            n="Oskaftade Högafflar, Gödselgrepar, Gödselrakor, Potatishackor och Betupptagningsrepar">
+            <ab>221</ab>
+            <ab>145 C</ab>
+            <ab>231</ab>
+            <ab>226</ab>
+            <ab>249</ab>
+            <ab>259</ab>
+            <ab>241</ab>
+            <ab>251</ab>
+            <ab>261</ab>
+            <p>
+               <hi rend="center">Oskaftade Högafflar, Gödselgrepar, Gödselrakor, Potatishackor och
+                  <lb/> Betupptagningsrepar</hi>
+            </p>
+            <p>
+               <hi rend="right">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="left">8</hi></trailer>
+         </div>
+
+         <pb n="11"/>
+         <div type="page" facs="#p11"
+            n="Oskaftade Högafflar, Gräv- och Trädgårdsgrepar, Gödselgrepar, Potatishackor samt Gödselrakor">
+            <ab>120 A</ab>
+            <ab>130 A</ab>
+            <ab>120 WA</ab>
+            <ab>144 A</ab>
+            <ab>140 A</ab>
+            <ab>150 A</ab>
+            <ab>160 A</ab>
+            <ab>133 A</ab>
+            <ab>145 Ba</ab>
+            <ab>146 A</ab>
+            <ab>156 A</ab>
+            <p>
+               <hi rend="center">Oskaftade Högafflar, Gräv- och Trädgårdsgrepar, Gödselgrepar,
+                  <lb/>Potatishackor samt Gödselrakor</hi>
+            </p>
+            <p>
+               <hi rend="left">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="right">9</hi></trailer>
+         </div>
+
+         <pb n="12"/>
+         <div type="page" facs="#p12" n="Gräv- och Dikesspadar, Slungspadar samt Trädgårdsspadar">
+            <ab>11, 12, 13 At <lb/>långt beslag</ab>
+            <ab>11, 12, 13 At <lb/>patentbeslag</ab>
+            <ab>11, 12, 13 At <lb/>med långsvetsat <lb/>patentbeslag</ab>
+            <ab>1, 2 PM<lb/>med patentbeslag</ab>
+            <ab>1, 2 PM <lb/>med långsvetsat <lb/>patentbeslag</ab>
+            <ab>351 Bj</ab>
+            <ab>351 Bj <lb/>helslipad</ab>
+            <p>
+               <hi rend="center">Gräv- och Dikesspadar, Slungspadar samt Trädgårdsspadar</hi>
+            </p>
+            <p>
+               <hi rend="right">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="left">10</hi></trailer>
+         </div>
+
+
+         <pb n="13"/>
+         <div type="page" facs="#p13"
+            n="Spetsiga Skyfflar, Koloni- och Trädgårdsspadar samt Stoppspadar">
+            <ab>33—37 At <lb/>långt beslag</ab>
+            <ab>33—37 At <lb/>med patentbeslag</ab>
+            <ab>33—37At <lb/>med långsvetsat<lb/>patentbeslag</ab>
+            <ab>365 At <lb/>tvär</ab>
+            <ab>365 At <lb/>spetsig</ab>
+            <ab>39 L <lb/>kryckhandtag</ab>
+            <ab>301 Bt <lb/>långt beslag</ab>
+            <p>
+               <hi rend="center">Spetsiga Skyfflar, Koloni- och Trädgårdsspadar samt
+                  Stoppspadar</hi>
+            </p>
+            <p>
+               <hi rend="left">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="right">11</hi></trailer>
+         </div>
+
+
+         <pb n="14"/>
+         <div type="page" facs="#p14"
+            n="Tvära Skyfflar, Gjuteriskyfflar, Spannmålsskyfflar och Kollämpareskyfflar">
+            <ab>42—46 At</ab>
+            <ab>42—46 Ct</ab>
+            <ab>51—54 At</ab>
+            <ab>51—52 Ct</ab>
+            <ab>182 Ht</ab>
+            <ab>185 K <lb/>kryckhandtag</ab>
+            <p>
+               <hi rend="center">Tvära Skyfflar, Gjuteriskyfflar, Spannmålsskyfflar och <lb/>
+                  Kollämpareskyfflar</hi>
+            </p>
+            <p>
+               <hi rend="right">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="left">12</hi></trailer>
+         </div>
+
+
+         <pb n="15"/>
+         <div type="page" facs="#p15"
+            n="Skånska Skyfflar och Cementskyfflar, Snöskyfflar samt Täckdikesspadar">
+            <ab>61—62 <lb/>kryckhandtag</ab>
+            <ab>ABt</ab>
+            <ab>81—82 At <lb/>med patentbeslag</ab>
+            <ab>60</ab>
+            <ab>61—62</ab>
+            <ab>63</ab>
+            <p>
+               <hi rend="center">Skånska Skyfflar och Cementskyfflar, Snöskyfflar samt <lb/>
+                  Täckdikesspadar</hi>
+            </p>
+            <p>
+               <hi rend="left">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="right">13</hi></trailer>
+         </div>
+
+
+         <pb n="16"/>
+         <div type="page" facs="#p16"
+            n="Hallpannskyfflar, Barn- och Planteringsspadar samt Kantskärare">
+            <ab>102 Ct</ab>
+            <ab>101 Ct</ab>
+            <ab>1 S</ab>
+            <ab>2 S</ab>
+            <ab>1 T</ab>
+            <ab>2 T</ab>
+            <ab>3 K</ab>
+            <p><hi rend="center">Hallpannskyfflar, Barn- och Planteringsspadar samt Kantskärare
+               </hi>
+            </p>
+            <p>
+               <hi rend="right">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="left">14</hi></trailer>
+         </div>
+
+
+         <pb n="17"/>
+         <div type="page" facs="#p17" n="Karlstads Snöskyfflar och Torvspadar">
+            <ab>1—2</ab>
+            <ab>20 At</ab>
+            <ab>22 At</ab>
+            <ab>7 At</ab>
+            <p><hi rend="center">Karlstads Snöskyfflar och Torvspadar </hi>
+            </p>
+            <p>
+               <hi rend="left">Pris och beskrivning enligt särskild prislista</hi>
+            </p>
+            <trailer><hi rend="right">15</hi></trailer>
+         </div>
+
+
+         <pb n="18"/>
+         <div type="page" facs="#p18" n="avslutning">
+            <head>
+               <hi rend="caps center">KARLSTADS SVETSADE BESLAG</hi>
+            </head>
+            <p><hi rend="center">utföres å de olika serierna av</hi></p>
+            <p>
+               <hi rend="bold caps center">Gräv-, Dikes- och Schaktspadar</hi>
+            </p>
+            <p><hi rend="center">Detta beslag är, som illustrationen här nedan visar, samman-
+                  <lb/>svetsat med underbeslaget för att i största möjliga mån hindra <lb/>skaftets
+                  avbrytande. — Utföres alltid med långt överbeslag.</hi></p>
+            <p><hi rend="center">De patentbeslag, som härovan avbildas tillverkas även med
+                  <lb/>cirka 100 mm längre svetsning enligt nedanst. illustration samt <lb/>alltid
+                  med långt överbeslag och benämnes detta utförande</hi></p>
+            <p>
+               <hi rend="caps center">LÅNGSVETSADE BESLAG</hi>
+            </p>
+            <ab>
+               <hi rend="italic center">Nermans Trycksaker, Karlstad 65023</hi>
+            </ab>
+         </div>
+
+         <pb n="19"/>
+         <div type="page" facs="#p19">
+            <!-- Denna sida är tom-->
+         </div>
+      </body>
+
+      <back>
+         <pb n="20"/>
+         <div type="page" facs="#p20">
+            <ab><hi rend="caps">KARLSTAD 1943 <lb/><hi rend="italic">NERMANS
+                  TRYCKSAKER</hi><lb/>65023</hi></ab>
+         </div>
+      </back>
+   </text>
+
+
+   <!-- Här följer extern information från en prislista från 1944, tryckt samma år som
+  katalogen, dvs 1943 -->
+
+
+   <standOff type="notes">
+      <bibl>Priser och informtion från en extern prislista tryckt samma år som katalogen,
+         1943.</bibl>
+      <note xml:id="note_p5" target="#Högafflar, Halmgafflar och Gödselgrepar">
+         <p>119: 2-kloig högaffel i amerikansk modell med 4 fots skaft av björk eller ask, lång
+            hylsa och finsmärglade klor</p>
+         <p> 120: 2-kloig högaffel i amerikansk modell med 4,5 fots skaft av björk eller ask, lång
+            hylsa och finsmärglade klor</p>
+         <p> 121: 2-kloig högaffel i amerikansk modell med 5 fots skaft av björk eller ask, lång
+            hylsa och finsmärglade klor</p>
+         <p> 129: 3-kloig högaffel i amerikansk modell med 4 fots skaft av björk eller ask, lång
+            hylsa och finsmärglade klor</p>
+         <p>130: 3-kloig högaffel i amerikansk modell med 4,5 fots skaft av björk eller ask, lång
+            hylsa och finsmärglade klor</p>
+         <p>131: 3-kloig högaffel i amerikansk modell med 4 fots skaft av björk eller ask, lång
+            hylsa och finsmärglade klor</p>
+         <p>120W: 2-kloig halmgaffel med långt skaft, lång dubbelhylsa samt extra grova finsmärglade
+            klor</p>
+         <p>140: 4-kloig gödselgrep i amerikansk modell med järnhandtag, skaft av björk eller ask,
+            lång dubbelhylsa och finsmärglade klor</p>
+         <p>141: 4-kloig gödselgrep i amerikansk modell med trähandtag, skaft av björk eller ask,
+            lång dubbelhylsa och finsmärglade klor</p>
+         <p>50: 5-kloig gödselgrep i amerikansk modell med järnhandtag, skaft av björk eller ask,
+            lång dubbelhylsa och finsmärglade klor</p>
+         <p>151: 5-kloig gödselgrep i amerikansk modell med trähandtag, skaft av björk eller ask,
+            lång dubbelhylsa och finsmärglade klor</p>
+         <p>Prisexempel 151: 7.95 kronor (skaft av ask), 6.05 kronor (skaft av björk)</p>
+      </note>
+
+
+      <note xml:id="note_p6" target="#Gödselgrepar">
+         <p>152: 5-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
+            finsmärglade klor</p>
+         <p>152B: 5-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
+            finsmärglade klor</p>
+         <p>160: 6-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
+            finsmärglade klor</p>
+         <p>161: 6-kloig gödselgrep i amerikansk modell med trähandtag, lång dubbelhylsa och
+            finsmärglade klor</p>
+         <p>162B: 6-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
+            finsmärglade klor</p>
+         <p>158: 5-kloig gödselgrep i engelsk modell, med i björkskaftet inlagd fal, finsmärglade
+            ovala klor, järnhandtag</p>
+         <p>159: 5-kloig gödselgrep i engelsk modell, med i björkskaftet inlagd fal, finsmärglade
+            ovala klor, trähandtag</p>
+         <p>Prisexempel 159: 8.55 kronor</p>
+      </note>
+
+      <note xml:id="note_p7" target="#Gräv- och Trädgårdsgrepar, Betgrepar samt Sulfitgrepar">
+         <p>144: 4-kloig gräv- och trädgårdsgrep i amerikansk modell, med järnhandtag, skaft av
+            björk, lång dubbelhylsa och trekantiga, finsmärglade klor</p>
+         <p>144B: 4-kloig gräv- och trädgårdsgrep i amerikansk modell, med järnhandtag, skaft av
+            björk, lång dubbelhylsa och trekantiga, osmärglade klor</p>
+         <p>266: 6-kloig betgrep med järnhandtag, lång dubbelhylsa, helsmidda kulor och finsmärglade
+            klor</p>
+         <p>266W: 6-kloig betgrep med järnhandtag, lång dubbelhylsa, helsmidda kulor och
+            finsmärglade klor</p>
+         <p>160H: 6-kloig sulfitgrep med järnhandtag i Hedemora modell, med lång dubbelhylsa</p>
+         <p>267: 6-kloig betgrep med trähandtag, lång dubbelhylsa, helsmidda kulor och finsmärglade
+            klor</p>
+         <p>267W: 6-kloig betgrep med trähandtag, lång dubbelhylsa, helsmidda kulor och finsmärglade
+            klor</p>
+         <p>Prisexempel 267W: 9.10 kronor</p>
+      </note>
+
+      <note xml:id="note_p8" target="#Koks- och Makadamgrepar samt Potatisgrepar">
+         <p>208ex: 8-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
+            finsmärglade klor; de yttersta klorna uppvikta</p>
+         <p>210: 10-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
+            finsmärglade klor; de yttersta klorna uppvikta</p>
+         <p>210M: 10-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
+            osmärglade klor; de yttersta klorna uppvikta</p>
+         <p>212: 12-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
+            finsmärglade klor; de yttersta klorna uppvikta</p>
+         <p>310: 10-kloig potatisgrep med järnhandtag, skaft av björk, lång dubbelhylsa, helsmidda
+            kulor och osmärglade klor</p>
+         <p>Prisexempel 310: 10.85 kronor </p>
+      </note>
+
+      <note xml:id="note_p9"
+         target="#Gödselrakor, Potatishackor, Små potatishackor samt Lövräfsan »PERFEKT»">
+         <p>146: 4-kloig gödselraka med 4,5 fots skaft av björk, lång dubbelhylsa och finsmärglade
+            klor</p>
+         <p>156: 5-kloig gödselraka med 4,5 fots skaft av björk, lång dubbelhylsa och finsmärglade
+            klor</p>
+         <p>145B: 4-kloig potatishacka med skaft av björk, kort hylsa och ovala, osmärglade klor</p>
+         <p>1: Lövräfsa med 20 antal härdade, fjädrande pinnar av svenskt specialstål, totalbredd:
+            440 mm. (Lövräfsan Perfekt)</p>
+         <p>2: Lövräfsa med 24 antal härdade, fjädrande pinnar av svenskt specialstål, totalbredd:
+            540 mm. (Lövräfsan Perfekt)</p>
+         <p>133: 3-kloig liten potatishacka, hylsa, osmärglade klor</p>
+         <p>Prisexempel 133: 2.55 kronor (50 cm skaft), 3.05 kronor (90 cm skaft och hylsa) </p>
+      </note>
+
+
+      <note xml:id="note_p10"
+         target="#Oskaftade Högafflar, Gödselgrepar, Gödselrakor, Potatishackor och Betupptagningsrepar">
+         <p> 221: 2-kloig högaffel i tysk modell, utan skaft</p>
+         <p> 231: 3-kloig högaffel i tysk modell, utan skaft</p>
+         <p> 145C: 4-kloig potatishacka i tysk modell, utan skaft</p>
+         <p> 226: 2-kloig betupptagningsgrep med spetsig helsmidd hylsa och trampstöd, utan skaft,
+            med smärglade klor</p>
+         <p> 249: 4-kloig gödselraka i tysk modell, utan skaft</p>
+         <p> 259: 5-kloig gödselraka i tysk modell, utan skaft</p>
+         <p> 241: 4-kloig gödselgrep i tysk modell, utan skaft</p>
+         <p>251: 5-kloig gödselgrep i tysk modell, utan skaft</p>
+         <p> 261: 6-kloig gödselgrep i tysk modell, utan skaft</p>
+         <p> Prisexempel 261: 5.20 kronor</p>
+      </note>
+
+      <note xml:id="note_p11"
+         target="#Oskaftade Högafflar, Gräv- och Trädgårdsgrepar, Gödselgrepar, Potatishackor samt Gödselrakor">
+         <p>120A: 2-kloig högaffel i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 130A: 3-kloig högaffel i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 140A: 4-kloig gödselgrep i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 150A: 5-kloig gödselgrep i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 160A: 6-kloig gödselgrep i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 146A: 4-kloig gödselraka i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 156A: 5-kloig gödselraka i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 144A: 4-kloig grävgrep i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 133A: 3-kloig potatishacka i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 145B: 4-kloig potatishacka i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 120WA: saknas i prislista</p>
+         <p> Prisexempel 145B: 4.05 kronor (3,5 fots skaft)</p>
+      </note>
+
+      <note xml:id="note_p12" target="#Gräv- och Dikesspadar, Slungspadar samt Trädgårdsspadar">
+         <p>11: gräv- och dikesspade, av stålplåt, härdad med trampkant, blankslipad och vässad
+            spets, lång överfal och skaft av björk</p>
+         <p>12: gräv- och dikesspade, av stålplåt, härdad med trampkant, blankslipad och vässad
+            spets, lång överfal och skaft av björk</p>
+         <p>13: gräv- och dikesspade, av stålplåt, härdad med trampkant, blankslipad och vässad
+            spets, lång överfal och skaft av björk</p>
+         <p>1, 2 PM Slungspade av stålplåt, härdad, med trampkant, djupt kupad, lång överfal, skaft
+            av björk och patentbeslag</p>
+         <p>1, 2 PM Slungspade av stålplåt, härdad, med trampkant, djupt kupad, lång överfal, skaft
+            av björk och långsvetsat patentbeslag</p>
+         <p>351B: trädgårdsspade av stålplåt, med trampkant och kort beslag, fastnitat vid bladet
+            med mässingsnitar</p>
+         <p>351B: trädgårdsspade av stålplåt, med trampkant och kort beslag, fastnitat vid bladet
+            med mässingsnitar, helslipad</p>
+         <p>Prisexempel 351B: 6.15 kronor (skaft av ask, järnhandtag), 8 kronor (skaft av ask,
+            trähandtag), 5.10 kronor (skaft av björk, järnhandtag), 6.10 kronor (skaft av björk,
+            trähandtag) </p>
+      </note>
+
+      <note xml:id="note_p13"
+         target="#Spetsiga Skyfflar, Koloni- och Trädgårdsspadar samt Stoppspadar">
+         <p> 33-37A Spetsig skyffel, av stålplåt, härdad med trampkant, lång överfal och skaft av
+            björk</p>
+         <p>3 varianter: långt beslag, med patentbeslag, med långsvetsat patentbeslag och
+            D-handtag</p>
+         <p>365A: Koloni- och trädgårdsspade av stålplåt, tvär, med skaft av björk</p>
+         <p> 365A: Koloni- och trädgårdsspade av stålplåt, spetsig, med skaft av björk</p>
+         <p>39 L (39 CL): Spetsig skyffel, av stålplåt, härdad med trampkant, lång överfal och skaft
+            av björk och kryckhandtag</p>
+         <p> 301B: stoppspade av stålplåt, härdade med långt överbeslag, skaft av björk med långt
+            beslag</p>
+         <p> Prisexempel 301B: 6.85 kronor (järnhandtag), 7.85 kronor (trähandtag) </p>
+      </note>
+
+
+      <note xml:id="note_p14"
+         target="#Tvära Skyfflar, Gjuteriskyfflar, Spannmålsskyfflar och Kollämpareskyfflar">
+         <p>42-46A: Tvär skyffel av stålplåt, ohärdad, utan trampkant och med skaft av björk</p>
+         <p>42-46C: Tvär skyffel av stålplåt, ohärdad, utan trampkant och med skaft av björk</p>
+         <p>51-54A: Spannmålsskyffel av stålplåt, ohärdade med skaft av björk</p>
+         <p>51-52C: Spannmålsskyffel av stålplåt, ohärdade med skaft av björk</p>
+         <p>182H Kollämpareskyffel Gefle modell, av stålplåt, ohärdade, med skaft av björk,
+            D-handtag</p>
+         <p>185K Kollämpareskyffel Göteborgs modell, av stålplåt, ohärdade, med skaft av björk,
+            kryckhandtag</p>
+         <p>Prisexempel 185K: 7.45 kronor (järnhandtag), 8.45 kronor (trähandtag) </p>
+      </note>
+
+
+      <note xml:id="note_p15"
+         target="#Skånska Skyfflar och Cementskyfflar, Snöskyfflar samt Täckdikesspadar">
+         <p>60: Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk och
+            fyrkantigt blad</p>
+         <p>61-62 Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
+         <p>61-62 Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk och
+            kryckhandtag</p>
+         <p>63 Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
+         <p>AB: Snöskyffel av stålplåt, ohärdade med skaft av björk</p>
+         <p>81-82 Täckdikesspadar, av stålplåt, härdade, med långt överbeslag, skaft av björk och
+            patent beslag</p>
+         <p>Prisexempel AB: 6.30 kronor (järnhandtag), 7.30 kronor (trähandtag)</p>
+      </note>
+
+
+      <note xml:id="note_p16"
+         target="#Hallpannskyfflar, Barn- och Planteringsspadar samt Kantskärare">
+         <p>101: Hallpannsskyffel, av stålplåt, ohärdad, skaft av björk med ring</p>
+         <p>102: Hallpannsskyffel, av stålplåt, ohärdad, skaft av björk, med D-handtag av järn</p>
+         <p>1S: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
+            spetsig</p>
+         <p>2S: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
+            spetsig</p>
+         <p>1T: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
+            tvär</p>
+         <p>2T: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
+            tvär</p>
+         <p>3K: Kantskärare, av stålplåt, försedd med skaft av björk, utan handtag</p>
+         <p>Prisexempel 3K: 3.80 kronor </p>
+      </note>
+
+
+      <note xml:id="note_p17" target="#Karlstads Snöskyfflar och Torvspadar">
+         <p>1-2: Snöskyffel, av stålplåt, med skaft av björk och järnhandtag</p>
+         <p>7A: Torvspade, av stålplåt, härdat blad, skarpslipade kanter, skärkant i vinkel</p>
+         <p>20A: Torvspade, av stålplåt, härdat blad, skarpslipade kanter, planat spadblad, rakt
+            skaft</p>
+         <p>22A: Torvspade, av stålplåt, härdat blad, skarpslipade kanter, något kupat spadblad,
+            böjt skaft</p>
+         <p>Prisexempel 22A: 5.50 kronor (järnhandtag), 6.50 kronor (trähandtag) </p>
+      </note>
+
+   </standOff>
+
+</TEI>
