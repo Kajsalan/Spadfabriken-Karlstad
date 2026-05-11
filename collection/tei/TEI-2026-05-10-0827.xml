@@ -481,7 +481,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <pb n="1"/>
          <div type="page" facs="#p1">
             <head>
-               <hi rend="bold caps center">KARLSTAD SPADAR</hi>
+               <hi rend="bold caps center">KARLSTADS SPADAR</hi>
             </head>
             <p>
                <hi rend="center">Den rätta spaden för <lb/>den mycket fordrande <lb/>fackmannen</hi>
