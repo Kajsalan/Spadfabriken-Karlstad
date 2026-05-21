@@ -518,12 +518,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>
                <hi rend="center">Den rätta spaden för <lb/>den mycket fordrande <lb/>fackmannen</hi>
             </p>
-            <ab>
+            <p>
                <hi rend="bold caps center">SPADFABRIKEN • KARLSTAD</hi>
-            </ab>
-            <ab>
+            </p>
+            <p>
                <hi rend="italic center">Bröderna Wästlund &amp; Co.</hi>
-            </ab>
+            </p>
          </div>
       </front>
 
@@ -578,10 +578,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ab>129, 130, 131 <lb/>med lång hylsa</ab>
             <ab>141</ab>
             <ab>151</ab>
-            <ab><hi rend="center">Högafflar, Halmgafflar och Gödselgrepar</hi></ab>
-            <ab>
+            <p><hi rend="center">Högafflar, Halmgafflar och Gödselgrepar</hi></p>
+            <p>
                <hi rend="left">Pris och beskrivning enligt särskild prislista</hi>
-            </ab>
+            </p>
             <trailer><hi rend="right">3</hi></trailer>
          </div>
 
@@ -834,9 +834,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>
                <hi rend="caps center">LÅNGSVETSADE BESLAG</hi>
             </p>
-            <ab>
+            <p>
                <hi rend="italic center">Nermans Trycksaker, Karlstad 65023</hi>
-            </ab>
+            </p>
          </div>
 
          <pb n="19"/>
@@ -848,8 +848,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <back>
          <pb n="20"/>
          <div type="page" facs="#p20">
-            <ab><hi rend="caps">KARLSTAD 1943 <lb/><hi rend="italic">NERMANS
-                  TRYCKSAKER</hi><lb/>65023</hi></ab>
+            <p><hi rend="caps">KARLSTAD 1943 <lb/><hi rend="italic">NERMANS
+                  TRYCKSAKER</hi><lb/>65023</hi></p>
          </div>
       </back>
    </text>
