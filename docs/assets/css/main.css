@@ -12,6 +12,11 @@ h1, h2, h3, nav, footer {
     text-align: center;
 }
 
+h4  {
+    text-align: left;
+    padding-bottom: 1vw;
+}
+
 nav {
     margin-bottom: 1vw;
     border-top: 1px solid black;
