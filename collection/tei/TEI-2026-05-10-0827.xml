@@ -874,13 +874,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             hylsa och finsmärglade klor</p>
          <p>131: 3-kloig högaffel i amerikansk modell med 4 fots skaft av björk eller ask, lång
             hylsa och finsmärglade klor</p>
-         <p>120W: 2-kloig halmgaffel med långt skaft, lång dubbelhylsa samt extra grova finsmärglade
+         <p>120 W: 2-kloig halmgaffel med långt skaft, lång dubbelhylsa samt extra grova finsmärglade
             klor</p>
          <p>140: 4-kloig gödselgrep i amerikansk modell med järnhandtag, skaft av björk eller ask,
             lång dubbelhylsa och finsmärglade klor</p>
          <p>141: 4-kloig gödselgrep i amerikansk modell med trähandtag, skaft av björk eller ask,
             lång dubbelhylsa och finsmärglade klor</p>
-         <p>50: 5-kloig gödselgrep i amerikansk modell med järnhandtag, skaft av björk eller ask,
+         <p>150: 5-kloig gödselgrep i amerikansk modell med järnhandtag, skaft av björk eller ask,
             lång dubbelhylsa och finsmärglade klor</p>
          <p>151: 5-kloig gödselgrep i amerikansk modell med trähandtag, skaft av björk eller ask,
             lång dubbelhylsa och finsmärglade klor</p>
@@ -891,13 +891,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <note xml:id="note_p6" target="#Gödselgrepar">
          <p>152: 5-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
             finsmärglade klor</p>
-         <p>152B: 5-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
+         <p>152 B: 5-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
             finsmärglade klor</p>
          <p>160: 6-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
             finsmärglade klor</p>
          <p>161: 6-kloig gödselgrep i amerikansk modell med trähandtag, lång dubbelhylsa och
             finsmärglade klor</p>
-         <p>162B: 6-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
+         <p>162 B: 6-kloig gödselgrep i amerikansk modell med järnhandtag, lång dubbelhylsa och
             finsmärglade klor</p>
          <p>158: 5-kloig gödselgrep i engelsk modell, med i björkskaftet inlagd fal, finsmärglade
             ovala klor, järnhandtag</p>
@@ -909,26 +909,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <note xml:id="note_p7" target="#Gräv- och Trädgårdsgrepar, Betgrepar samt Sulfitgrepar">
          <p>144: 4-kloig gräv- och trädgårdsgrep i amerikansk modell, med järnhandtag, skaft av
             björk, lång dubbelhylsa och trekantiga, finsmärglade klor</p>
-         <p>144B: 4-kloig gräv- och trädgårdsgrep i amerikansk modell, med järnhandtag, skaft av
+         <p>144 B: 4-kloig gräv- och trädgårdsgrep i amerikansk modell, med järnhandtag, skaft av
             björk, lång dubbelhylsa och trekantiga, osmärglade klor</p>
          <p>266: 6-kloig betgrep med järnhandtag, lång dubbelhylsa, helsmidda kulor och finsmärglade
             klor</p>
-         <p>266W: 6-kloig betgrep med järnhandtag, lång dubbelhylsa, helsmidda kulor och
+         <p>266 W: 6-kloig betgrep med järnhandtag, lång dubbelhylsa, helsmidda kulor och
             finsmärglade klor</p>
-         <p>160H: 6-kloig sulfitgrep med järnhandtag i Hedemora modell, med lång dubbelhylsa</p>
+         <p>160 H: 6-kloig sulfitgrep med järnhandtag i Hedemora modell, med lång dubbelhylsa</p>
          <p>267: 6-kloig betgrep med trähandtag, lång dubbelhylsa, helsmidda kulor och finsmärglade
             klor</p>
-         <p>267W: 6-kloig betgrep med trähandtag, lång dubbelhylsa, helsmidda kulor och finsmärglade
+         <p>267 W: 6-kloig betgrep med trähandtag, lång dubbelhylsa, helsmidda kulor och finsmärglade
             klor</p>
-         <p>Prisexempel 267W: 9.10 kronor</p>
+         <p>Prisexempel 267 W: 9.10 kronor</p>
       </note>
 
       <note xml:id="note_p8" target="#Koks- och Makadamgrepar samt Potatisgrepar">
-         <p>208ex: 8-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
+         <p>208 ex.: 8-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
             finsmärglade klor; de yttersta klorna uppvikta</p>
          <p>210: 10-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
             finsmärglade klor; de yttersta klorna uppvikta</p>
-         <p>210M: 10-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
+         <p>210 M: 10-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
             osmärglade klor; de yttersta klorna uppvikta</p>
          <p>212: 12-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
             finsmärglade klor; de yttersta klorna uppvikta</p>
@@ -943,7 +943,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             klor</p>
          <p>156: 5-kloig gödselraka med 4,5 fots skaft av björk, lång dubbelhylsa och finsmärglade
             klor</p>
-         <p>145B: 4-kloig potatishacka med skaft av björk, kort hylsa och ovala, osmärglade klor</p>
+         <p>145 B: 4-kloig potatishacka med skaft av björk, kort hylsa och ovala, osmärglade klor</p>
          <p>1: Lövräfsa med 20 antal härdade, fjädrande pinnar av svenskt specialstål, totalbredd:
             440 mm. (Lövräfsan Perfekt)</p>
          <p>2: Lövräfsa med 24 antal härdade, fjädrande pinnar av svenskt specialstål, totalbredd:
@@ -963,25 +963,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <p> 249: 4-kloig gödselraka i tysk modell, utan skaft</p>
          <p> 259: 5-kloig gödselraka i tysk modell, utan skaft</p>
          <p> 241: 4-kloig gödselgrep i tysk modell, utan skaft</p>
-         <p>251: 5-kloig gödselgrep i tysk modell, utan skaft</p>
+         <p> 251: 5-kloig gödselgrep i tysk modell, utan skaft</p>
          <p> 261: 6-kloig gödselgrep i tysk modell, utan skaft</p>
          <p> Prisexempel 261: 5.20 kronor</p>
       </note>
 
       <note xml:id="note_p11"
          target="#Oskaftade Högafflar, Gräv- och Trädgårdsgrepar, Gödselgrepar, Potatishackor samt Gödselrakor">
-         <p>120A: 2-kloig högaffel i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 130A: 3-kloig högaffel i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 140A: 4-kloig gödselgrep i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 150A: 5-kloig gödselgrep i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 160A: 6-kloig gödselgrep i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 146A: 4-kloig gödselraka i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 156A: 5-kloig gödselraka i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 144A: 4-kloig grävgrep i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 133A: 3-kloig potatishacka i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 145B: 4-kloig potatishacka i amerikansk modell, utan beslag, utan skaft</p>
-         <p> 120WA: saknas i prislista</p>
-         <p> Prisexempel 145B: 4.05 kronor (3,5 fots skaft)</p>
+         <p>120 A: 2-kloig högaffel i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 130 A: 3-kloig högaffel i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 140 A: 4-kloig gödselgrep i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 150 A: 5-kloig gödselgrep i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 160 A: 6-kloig gödselgrep i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 146 A: 4-kloig gödselraka i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 156 A: 5-kloig gödselraka i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 144 A: 4-kloig grävgrep i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 133 A: 3-kloig potatishacka i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 145 B: 4-kloig potatishacka i amerikansk modell, utan beslag, utan skaft</p>
+         <p> 120 WA: saknas i prislista</p>
+         <p> Prisexempel 145 B: 4.05 kronor (3,5 fots skaft)</p>
       </note>
 
       <note xml:id="note_p12" target="#Gräv- och Dikesspadar, Slungspadar samt Trädgårdsspadar">
@@ -995,42 +995,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             av björk och patentbeslag</p>
          <p>1, 2 PM Slungspade av stålplåt, härdad, med trampkant, djupt kupad, lång överfal, skaft
             av björk och långsvetsat patentbeslag</p>
-         <p>351B: trädgårdsspade av stålplåt, med trampkant och kort beslag, fastnitat vid bladet
+         <p>351 B: trädgårdsspade av stålplåt, med trampkant och kort beslag, fastnitat vid bladet
             med mässingsnitar</p>
-         <p>351B: trädgårdsspade av stålplåt, med trampkant och kort beslag, fastnitat vid bladet
+         <p>351 B: trädgårdsspade av stålplåt, med trampkant och kort beslag, fastnitat vid bladet
             med mässingsnitar, helslipad</p>
-         <p>Prisexempel 351B: 6.15 kronor (skaft av ask, järnhandtag), 8 kronor (skaft av ask,
+         <p>Prisexempel 351 B: 6.15 kronor (skaft av ask, järnhandtag), 8 kronor (skaft av ask,
             trähandtag), 5.10 kronor (skaft av björk, järnhandtag), 6.10 kronor (skaft av björk,
             trähandtag) </p>
       </note>
 
       <note xml:id="note_p13"
          target="#Spetsiga Skyfflar, Koloni- och Trädgårdsspadar samt Stoppspadar">
-         <p> 33-37A Spetsig skyffel, av stålplåt, härdad med trampkant, lång överfal och skaft av
+         <p> 33-37 A: Spetsig skyffel, av stålplåt, härdad med trampkant, lång överfal och skaft av
             björk</p>
          <p>3 varianter: långt beslag, med patentbeslag, med långsvetsat patentbeslag och
             D-handtag</p>
-         <p>365A: Koloni- och trädgårdsspade av stålplåt, tvär, med skaft av björk</p>
-         <p> 365A: Koloni- och trädgårdsspade av stålplåt, spetsig, med skaft av björk</p>
+         <p>365 A: Koloni- och trädgårdsspade av stålplåt, tvär, med skaft av björk</p>
+         <p> 365 A: Koloni- och trädgårdsspade av stålplåt, spetsig, med skaft av björk</p>
          <p>39 L (39 CL): Spetsig skyffel, av stålplåt, härdad med trampkant, lång överfal och skaft
             av björk och kryckhandtag</p>
-         <p> 301B: stoppspade av stålplåt, härdade med långt överbeslag, skaft av björk med långt
+         <p> 301 B: stoppspade av stålplåt, härdade med långt överbeslag, skaft av björk med långt
             beslag</p>
-         <p> Prisexempel 301B: 6.85 kronor (järnhandtag), 7.85 kronor (trähandtag) </p>
+         <p> Prisexempel 301 B: 6.85 kronor (järnhandtag), 7.85 kronor (trähandtag) </p>
       </note>
 
 
       <note xml:id="note_p14"
          target="#Tvära Skyfflar, Gjuteriskyfflar, Spannmålsskyfflar och Kollämpareskyfflar">
-         <p>42-46A: Tvär skyffel av stålplåt, ohärdad, utan trampkant och med skaft av björk</p>
-         <p>42-46C: Tvär skyffel av stålplåt, ohärdad, utan trampkant och med skaft av björk</p>
-         <p>51-54A: Spannmålsskyffel av stålplåt, ohärdade med skaft av björk</p>
-         <p>51-52C: Spannmålsskyffel av stålplåt, ohärdade med skaft av björk</p>
-         <p>182H Kollämpareskyffel Gefle modell, av stålplåt, ohärdade, med skaft av björk,
+         <p>42-46 A: Tvär skyffel av stålplåt, ohärdad, utan trampkant och med skaft av björk</p>
+         <p>42-46 C: Tvär skyffel av stålplåt, ohärdad, utan trampkant och med skaft av björk</p>
+         <p>51-54 A: Spannmålsskyffel av stålplåt, ohärdade med skaft av björk</p>
+         <p>51-52 C: Spannmålsskyffel av stålplåt, ohärdade med skaft av björk</p>
+         <p>182 H: Kollämpareskyffel Gefle modell, av stålplåt, ohärdade, med skaft av björk,
             D-handtag</p>
-         <p>185K Kollämpareskyffel Göteborgs modell, av stålplåt, ohärdade, med skaft av björk,
+         <p>185 K: Kollämpareskyffel Göteborgs modell, av stålplåt, ohärdade, med skaft av björk,
             kryckhandtag</p>
-         <p>Prisexempel 185K: 7.45 kronor (järnhandtag), 8.45 kronor (trähandtag) </p>
+         <p>Prisexempel 185 K: 7.45 kronor (järnhandtag), 8.45 kronor (trähandtag) </p>
       </note>
 
 
@@ -1038,12 +1038,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          target="#Skånska Skyfflar och Cementskyfflar, Snöskyfflar samt Täckdikesspadar">
          <p>60: Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk och
             fyrkantigt blad</p>
-         <p>61-62 Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
-         <p>61-62 Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk och
+         <p>61-62: Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
+         <p>61-62: Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk och
             kryckhandtag</p>
-         <p>63 Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
+         <p>63: Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
          <p>AB: Snöskyffel av stålplåt, ohärdade med skaft av björk</p>
-         <p>81-82 Täckdikesspadar, av stålplåt, härdade, med långt överbeslag, skaft av björk och
+         <p>81-82: Täckdikesspadar, av stålplåt, härdade, med långt överbeslag, skaft av björk och
             patent beslag</p>
          <p>Prisexempel AB: 6.30 kronor (järnhandtag), 7.30 kronor (trähandtag)</p>
       </note>
@@ -1053,27 +1053,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          target="#Hallpannskyfflar, Barn- och Planteringsspadar samt Kantskärare">
          <p>101: Hallpannsskyffel, av stålplåt, ohärdad, skaft av björk med ring</p>
          <p>102: Hallpannsskyffel, av stålplåt, ohärdad, skaft av björk, med D-handtag av järn</p>
-         <p>1S: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
+         <p>1 S: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
             spetsig</p>
-         <p>2S: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
+         <p>2 S: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
             spetsig</p>
-         <p>1T: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
+         <p>1 T: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
             tvär</p>
-         <p>2T: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
+         <p>2 T: Barn- och Planteringsspade, av stålplåt, försedd med skaft av björk, utan handtag,
             tvär</p>
-         <p>3K: Kantskärare, av stålplåt, försedd med skaft av björk, utan handtag</p>
-         <p>Prisexempel 3K: 3.80 kronor </p>
+         <p>3 K: Kantskärare, av stålplåt, försedd med skaft av björk, utan handtag</p>
+         <p>Prisexempel 3 K: 3.80 kronor </p>
       </note>
 
 
       <note xml:id="note_p17" target="#Karlstads Snöskyfflar och Torvspadar">
          <p>1-2: Snöskyffel, av stålplåt, med skaft av björk och järnhandtag</p>
-         <p>7A: Torvspade, av stålplåt, härdat blad, skarpslipade kanter, skärkant i vinkel</p>
-         <p>20A: Torvspade, av stålplåt, härdat blad, skarpslipade kanter, planat spadblad, rakt
+         <p>7 A: Torvspade, av stålplåt, härdat blad, skarpslipade kanter, skärkant i vinkel</p>
+         <p>20 A: Torvspade, av stålplåt, härdat blad, skarpslipade kanter, planat spadblad, rakt
             skaft</p>
-         <p>22A: Torvspade, av stålplåt, härdat blad, skarpslipade kanter, något kupat spadblad,
+         <p>22 A: Torvspade, av stålplåt, härdat blad, skarpslipade kanter, något kupat spadblad,
             böjt skaft</p>
-         <p>Prisexempel 22A: 5.50 kronor (järnhandtag), 6.50 kronor (trähandtag) </p>
+         <p>Prisexempel 22 A: 5.50 kronor (järnhandtag), 6.50 kronor (trähandtag) </p>
       </note>
 
    </standOff>
