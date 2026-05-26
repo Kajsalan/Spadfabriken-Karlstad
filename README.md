@@ -4,7 +4,21 @@ Materialet har skannats, transkriberats, TEI-kodats och publicerats med hjälp a
 Projektet har genomförts av Johanna Häger, Malin Ålund Karlsson och Kajsa Landin.
 
 ## Projektöversikt
-_vilka filer som finns med_
+Följande filer ingår i projektet:
+
+En README-fil
+
+En xml-fil med transkription och TEI-kodning av katalogen från Spadfabriken Karlstad
+
+22 jpg-filer som har redigerats och anpassats för hemsidan
+
+20 TIF-filer med tillhörande metadata
+
+Fem html-filer som utgör projektets hemsida
+
+En css-fil som styr html-filernas presentation och funktioner
+
+En pdf-fil som innehåller en projektrapport
 
 ## Credits
 Hemsidan och projektets repository har skapats med hjälp av Wout Dillens [mallar](https://github.com/SSLIS/DCHM-template).
