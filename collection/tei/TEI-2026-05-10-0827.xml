@@ -869,7 +869,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             lång dubbelhylsa och finsmärglade klor</p>
          <p>141: 4-kloig gödselgrep i amerikansk modell med trähandtag, skaft av björk eller ask,
             lång dubbelhylsa och finsmärglade klor</p>
-         <p>50: 5-kloig gödselgrep i amerikansk modell med järnhandtag, skaft av björk eller ask,
+         <p>150: 5-kloig gödselgrep i amerikansk modell med järnhandtag, skaft av björk eller ask,
             lång dubbelhylsa och finsmärglade klor</p>
          <p>151: 5-kloig gödselgrep i amerikansk modell med trähandtag, skaft av björk eller ask,
             lång dubbelhylsa och finsmärglade klor</p>
@@ -909,11 +909,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             klor</p>
          <p>267 W: 6-kloig betgrep med trähandtag, lång dubbelhylsa, helsmidda kulor och finsmärglade
             klor</p>
-         <p>Prisexempel 267W: 9.10 kronor</p>
+         <p>Prisexempel 267 W: 9.10 kronor</p>
       </note>
 
       <note xml:id="note_p8" target="#Koks- och Makadamgrepar samt Potatisgrepar">
-         <p>208 ex: 8-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
+         <p>208 ex.: 8-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
             finsmärglade klor; de yttersta klorna uppvikta</p>
          <p>210: 10-kloig koks- och makadamgrep, helsmidda med järnhandtag, lång dubbelhylsa,
             finsmärglade klor; de yttersta klorna uppvikta</p>
@@ -1015,9 +1015,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <p>42-46 C: Tvär skyffel av stålplåt, ohärdad, utan trampkant och med skaft av björk</p>
          <p>51-54 A: Spannmålsskyffel av stålplåt, ohärdade med skaft av björk</p>
          <p>51-52 C: Spannmålsskyffel av stålplåt, ohärdade med skaft av björk</p>
-         <p>182 H Kollämpareskyffel Gefle modell, av stålplåt, ohärdade, med skaft av björk,
+         <p>182 H: Kollämpareskyffel Gefle modell, av stålplåt, ohärdade, med skaft av björk,
             D-handtag</p>
-         <p>185 K Kollämpareskyffel Göteborgs modell, av stålplåt, ohärdade, med skaft av björk,
+         <p>185 K: Kollämpareskyffel Göteborgs modell, av stålplåt, ohärdade, med skaft av björk,
             kryckhandtag</p>
          <p>Prisexempel 185 K: 7.45 kronor (järnhandtag), 8.45 kronor (trähandtag) </p>
       </note>
@@ -1027,12 +1027,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          target="#Skånska Skyfflar och Cementskyfflar, Snöskyfflar samt Täckdikesspadar">
          <p>60: Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk och
             fyrkantigt blad</p>
-         <p>61-62 Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
-         <p>61-62 Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk och
+         <p>61-62: Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
+         <p>61-62: Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk och
             kryckhandtag</p>
-         <p>63 Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
+         <p>63: Skånsk skyffel/cementskyffel, av stålplåt, icke härdad, med skaft av björk</p>
          <p>AB: Snöskyffel av stålplåt, ohärdade med skaft av björk</p>
-         <p>81-82 Täckdikesspadar, av stålplåt, härdade, med långt överbeslag, skaft av björk och
+         <p>81-82: Täckdikesspadar, av stålplåt, härdade, med långt överbeslag, skaft av björk och
             patent beslag</p>
          <p>Prisexempel AB: 6.30 kronor (järnhandtag), 7.30 kronor (trähandtag)</p>
       </note>
