@@ -18,5 +18,7 @@ Fem html-filer som utgör projektets hemsida
 
 En css-fil som styr html-filernas presentation och funktioner
 
+En pdf-fil med en projektrapport
+
 ## Credits
 Hemsidan och projektets repository har skapats med hjälp av Wout Dillens [mallar](https://github.com/SSLIS/DCHM-template).
