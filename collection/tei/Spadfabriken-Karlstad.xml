@@ -598,7 +598,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <div type="page" facs="#p7" n="Gräv- och Trädgårdsgrepar, Betgrepar samt Sulfitgrepar">
             <ab>144</ab>
             <ab>144 B</ab>
-            <ab>266, 266 w</ab>
+            <ab>266, 266 W</ab>
             <ab>160 H</ab>
             <ab>267, 267 W</ab>
             <p>
@@ -694,7 +694,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <pb n="12"/>
          <div type="page" facs="#p12" n="Gräv- och Dikesspadar, Slungspadar samt Trädgårdsspadar">
             <ab>11, 12, 13 At <lb/>långt beslag</ab>
-            <ab>11, 12, 13 At <lb/>patentbeslag</ab>
+            <ab>11, 12, 13 At <lb/>med patentbeslag</ab>
             <ab>11, 12, 13 At <lb/>med långsvetsat <lb/>patentbeslag</ab>
             <ab>1, 2 PM<lb/>med patentbeslag</ab>
             <ab>1, 2 PM <lb/>med långsvetsat <lb/>patentbeslag</ab>
