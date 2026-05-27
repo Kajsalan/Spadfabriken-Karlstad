@@ -26,14 +26,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <pubPlace>
                <address>
                   <orgName>Högskolan i Borås</orgName>
-                  <street>13 Allégatan 1</street>
+                  <street>Allégatan 1</street>
                   <settlement>Borås</settlement>
                   <postCode>503 32</postCode>
                   <country>Sverige</country>
                </address>
             </pubPlace>
             <authority>Karlstadsgruppen</authority>
-            <date when="2026-04-13">6 April 2026</date>
+            <date when="2026-05-27">27 maj 2026</date>
             <availability>
                <p>© Copyright is held by Karlstad Redskap AB. The material has been digitized and
                   published with permission from the copyright holder.<lb/> © Upphovsrätten innehas
@@ -66,10 +66,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <physDesc>
                   <objectDesc form="catalogue">
                      <supportDesc material="paper">
-                        <support>Papper.</support>
-                        <extent>10 blad. <dimensions scope="all" type="leaf" unit="cm">
-                              <height>22,65 cm hög.</height>
-                              <width>15 cm bred.</width>
+                        <support>Papper</support>
+                        <extent>10 blad<dimensions scope="all" type="leaf" unit="cm">
+                              <height>22,65</height>
+                              <width>15</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -87,8 +87,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <term ref="https://id.kb.se/term/sao/Efem%C3%A4rt%20tryck">Efemärt tryck</term>
                <term ref="https://id.kb.se/term/sao/Reklam">Reklam</term>
                <term ref="https://id.kb.se/term/sao/Lantbruksredskap">Lantbruksredskap</term>
-               <term ref="https://id.kb.se/term/sao/Tr%C3%A4dg%C3%A5rdsredskap"
-                  >Trädgårdsredskap</term>
+               <term ref="https://id.kb.se/term/sao/Tr%C3%A4dg%C3%A5rdsredskap">Trädgårdsredskap</term>
                <term ref="https://id.kb.se/term/sao/1940-talet">1940-talet</term>
             </keywords>
          </textClass>
@@ -98,7 +97,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <!-- Encoding practices-->
          <projectDesc>
             <p>Detta material är skapat för en uppgift i kursen "Digitalisering för bevarande och
-               tillgänglighet", där kulturarvmaterial digitaliseras på uppdrag av en
+               tillgänglighet", där kulturarvsmaterial digitaliseras på uppdrag av en
                kulturarvsinstitution, i detta fall Karlstads hembygdsförening. Kursen ingår i
                masterutbildningen i Biblioteks- och informationsvetenskap vid Högskolan i Borås.</p>
          </projectDesc>
@@ -109,7 +108,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <segmentation>
                <p><gi>div</gi> och <gi>pb</gi>har använts för att markera en ny sida.</p>
             </segmentation>
-         </editorialDecl>
+         </editorialDecl>         
       </encodingDesc>
       
       <xenoData><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c000 137.da4a7e5, 2022/11/27-09:35:03        ">
