@@ -540,7 +540,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </p>
             <p>
                <hi rend="center">Telegramadress: <hi rend="caps">SPADFABRIKEN</hi><lb/>Telefon 15435
-                  Växel</hi>
+                  växel</hi>
             </p>
          </div>
 
@@ -636,8 +636,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ab>133</ab>
             <ab>2</ab>
             <p>
-               <hi rend="center">Gödselrakor, Potatishackor, Små potatishackor samt <lb/>Lövräfsan »
-                     <hi rend="caps">PERFEKT</hi>»</hi>
+               <hi rend="center">Gödselrakor, Potatishackor, Små potatishackor samt <lb/>Lövräfsan »<hi rend="caps">PERFEKT</hi>»</hi>
             </p>
             <p>
                <hi rend="left">Pris och beskrivning enligt särskild prislista</hi>
